@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Grid Layout</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Delius+Unicase:wght@400;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body class="grid-container">
+	<main class="main">
+		<div class="container">
+			<section>
+				<h2 class="title title__2">Architectural Photography</h2>
+				<div class="gallery">
+					<div class="gal__item">
+						<div class="gal__img-wrap">
+							<img src="./assets/img/image-1.png" alt="" class="gal__img">
+						</div>
+						<div class="gal__btn">
+							<button class="gal__like" type="button" aria-label="Like">
+								<i class="fa-solid fa-heart"></i>
+							</button>
+							<a class="gal__download" href="./assets/img/image-1.png" download aria-label="Download">
+								<i class="fa-solid fa-download"></i>
+							</a>
+						</div>
+						<div class="gal__title">
+							<span class="gal__author">Jezael Melgoza</span>
+							<span class="gal__date">5 June 2020</span>
+						</div>
+					</div>
+					<div class="gal__item gal__item--col-2">
+						<div class="gal__img-wrap">
+							<img src="./assets/img/image-2.png" alt="" class="gal__img">
+						</div>
+						<div class="gal__btn">
+							<button class="gal__like" type="button" aria-label="Like">
+								<i class="fa-solid fa-heart"></i>
+							</button>
+							<a class="gal__download" href="./assets/img/image-1.png" download aria-label="Download">
+								<i class="fa-solid fa-download"></i>
+							</a>
+						</div>
+						<div class="gal__title">
+							<span class="gal__author">Tom W</span>
+							<span class="gal__date">30 March 2021</span>
+						</div>
+					</div>
+					<div class="gal__item gal__item--col-2">
+						<div class="gal__img-wrap">
+							<img src="./assets/img/image-3.png" alt="" class="gal__img">
+						</div>
+						<div class="gal__btn">
+							<button class="gal__like" type="button" aria-label="Like">
+								<i class="fa-solid fa-heart"></i>
+							</button>
+							<a class="gal__download" href="./assets/img/image-1.png" download aria-label="Download">
+								<i class="fa-solid fa-download"></i>
+							</a>
+						</div>
+						<div class="gal__title">
+							<span class="gal__author">Johan Mouchet</span>
+							<span class="gal__date">14 August 2019</span>
+						</div>
+					</div>
+					<div class="gal__item">
+						<div class="gal__img-wrap">
+							<img src="./assets/img/image-4.png" alt="" class="gal__img">
+						</div>
+						<div class="gal__btn">
+							<button class="gal__like" type="button" aria-label="Like">
+								<i class="fa-solid fa-heart"></i>
+							</button>
+							<a class="gal__download" href="./assets/img/image-1.png" download aria-label="Download">
+								<i class="fa-solid fa-download"></i>
+							</a>
+						</div>
+						<div class="gal__title">
+							<span class="gal__author">Federico Di Dio</span>
+							<span class="gal__date">29 October 2020</span>
+						</div>
+					</div>
+					<div class="gal__item">
+						<div class="gal__img-wrap">
+							<img src="./assets/img/image-5.png" alt="" class="gal__img">
+						</div>
+						<div class="gal__btn">
+							<button class="gal__like" type="button" aria-label="Like">
+								<i class="fa-solid fa-heart"></i>
+							</button>
+							<a class="gal__download" href="./assets/img/image-1.png" download aria-label="Download">
+								<i class="fa-solid fa-download"></i>
+							</a>
+						</div>
+						<div class="gal__title">
+							<span class="gal__author">Casey Horner</span>
+							<span class="gal__date">9 July 2021</span>
+						</div>
+					</div>
+					<div class="gal__item gal__item--col-2">
+						<div class="gal__img-wrap">
+							<img src="./assets/img/image-6.png" alt="" class="gal__img">
+						</div>
+						<div class="gal__btn">
+							<button class="gal__like" type="button" aria-label="Like">
+								<i class="fa-solid fa-heart"></i>
+							</button>
+							<a class="gal__download" href="./assets/img/image-1.png" download aria-label="Download">
+								<i class="fa-solid fa-download"></i>
+							</a>
+						</div>
+						<div class="gal__title">
+							<span class="gal__author">Alexander Rotker</span>
+							<span class="gal__date">22 April 2022</span>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section>
+				<h2 class="title title__2">Still Life Photography</h2>
+				<div class="gallery">
+					<div class="gal__item">
+						<div class="gal__img-wrap">
+							<img src="./assets/img/image-7.png" alt="" class="gal__img">
+						</div>
+						<div class="gal__btn">
+							<button class="gal__like" type="button" aria-label="Like">
+								<i class="fa-solid fa-heart"></i>
+							</button>
+							<a class="gal__download" href="./assets/img/image-1.png" download aria-label="Download">
+								<i class="fa-solid fa-download"></i>
+							</a>
+						</div>
+						<div class="gal__title">
+							<span class="gal__author">Robert Lukeman</span>
+							<span class="gal__date">30 June 2020</span>
+						</div>
+					</div>
+					<div class="gal__item gal__item--col-2">
+						<div class="gal__img-wrap">
+							<img src="./assets/img/image-8.png" alt="" class="gal__img">
+						</div>
+						<div class="gal__btn">
+							<button class="gal__like" type="button" aria-label="Like">
+								<i class="fa-solid fa-heart"></i>
+							</button>
+							<a class="gal__download" href="./assets/img/image-1.png" download aria-label="Download">
+								<i class="fa-solid fa-download"></i>
+							</a>
+						</div>
+						<div class="gal__title">
+							<span class="gal__author">Sean Oulashin</span>
+							<span class="gal__date">5 September 2019</span>
+						</div>
+					</div>
+					<div class="gal__item gal__item--col-2">
+						<div class="gal__img-wrap">
+							<img src="./assets/img/image-9.png" alt="" class="gal__img">
+						</div>
+						<div class="gal__btn">
+							<button class="gal__like" type="button" aria-label="Like">
+								<i class="fa-solid fa-heart"></i>
+							</button>
+							<a class="gal__download" href="./assets/img/image-1.png" download aria-label="Download">
+								<i class="fa-solid fa-download"></i>
+							</a>
+						</div>
+						<div class="gal__title">
+							<span class="gal__author">John Fowler</span>
+							<span class="gal__date">10 August 2021</span>
+						</div>
+					</div>
+					<div class="gal__item">
+						<div class="gal__img-wrap">
+							<img src="./assets/img/image-10.png" alt="" class="gal__img">
+						</div>
+						<div class="gal__btn">
+							<button class="gal__like" type="button" aria-label="Like">
+								<i class="fa-solid fa-heart"></i>
+							</button>
+							<a class="gal__download" href="./assets/img/image-1.png" download aria-label="Download">
+								<i class="fa-solid fa-download"></i>
+							</a>
+						</div>
+						<div class="gal__title">
+							<span class="gal__author">Dave Hoefler</span>
+							<span class="gal__date">13 February 2021</span>
+						</div>
+					</div>
+					<div class="gal__item gal__item--col-2">
+						<div class="gal__img-wrap">
+							<img src="./assets/img/image-11.png" alt="" class="gal__img">
+						</div>
+						<div class="gal__btn">
+							<button class="gal__like" type="button" aria-label="Like">
+								<i class="fa-solid fa-heart"></i>
+							</button>
+							<a class="gal__download" href="./assets/img/image-1.png" download aria-label="Download">
+								<i class="fa-solid fa-download"></i>
+							</a>
+						</div>
+						<div class="gal__title">
+							<span class="gal__author">Léonard Cotte</span>
+							<span class="gal__date">5 September 2019</span>
+						</div>
+					</div>
+					<div class="gal__item">
+						<div class="gal__img-wrap">
+							<img src="./assets/img/image-12.png" alt="" class="gal__img">
+						</div>
+						<div class="gal__btn">
+							<button class="gal__like" type="button" aria-label="Like">
+								<i class="fa-solid fa-heart"></i>
+							</button>
+							<a class="gal__download" href="./assets/img/image-1.png" download aria-label="Download">
+								<i class="fa-solid fa-download"></i>
+							</a>
+						</div>
+						<div class="gal__title">
+							<span class="gal__author">Rob Mulally</span>
+							<span class="gal__date">30 May 2020</span>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section>
+				<h2 class="title title__2">Portrait and Fashion Photography</h2>
+				<div class="gallery">
+					<div class="gal__item">
+						<div class="gal__img-wrap">
+							<img src="./assets/img/image-13.png" alt="" class="gal__img">
+						</div>
+						<div class="gal__btn">
+							<button class="gal__like" type="button" aria-label="Like">
+								<i class="fa-solid fa-heart"></i>
+							</button>
+							<a class="gal__download" href="./assets/img/image-1.png" download aria-label="Download">
+								<i class="fa-solid fa-download"></i>
+							</a>
+						</div>
+						<div class="gal__title">
+							<span class="gal__author">Pooja Chaudhary</span>
+							<span class="gal__date">30 June 2020</span>
+						</div>
+					</div>
+					<div class="gal__item gal__item--fashion2">
+						<div class="gal__img-wrap">
+							<img src="./assets/img/image-14.png" alt="" class="gal__img">
+						</div>
+						<div class="gal__btn">
+							<button class="gal__like" type="button" aria-label="Like">
+								<i class="fa-solid fa-heart"></i>
+							</button>
+							<a class="gal__download" href="./assets/img/image-1.png" download aria-label="Download">
+								<i class="fa-solid fa-download"></i>
+							</a>
+						</div>
+						<div class="gal__title">
+							<span class="gal__author">Dom Hill</span>
+							<span class="gal__date">13 October 2021</span>
+						</div>
+					</div>
+					<div class="gal__item">
+						<div class="gal__img-wrap">
+							<img src="./assets/img/image-15.png" alt="" class="gal__img">
+						</div>
+						<div class="gal__btn">
+							<button class="gal__like" type="button" aria-label="Like">
+								<i class="fa-solid fa-heart"></i>
+							</button>
+							<a class="gal__download" href="./assets/img/image-1.png" download aria-label="Download">
+								<i class="fa-solid fa-download"></i>
+							</a>
+						</div>
+						<div class="gal__title">
+							<span class="gal__author">Seth Doyle</span>
+							<span class="gal__date">30 May 2020</span>
+						</div>
+					</div>
+					<div class="gal__item">
+						<div class="gal__img-wrap">
+							<img src="./assets/img/image-16.png" alt="" class="gal__img">
+						</div>
+						<div class="gal__btn">
+							<button class="gal__like" type="button" aria-label="Like">
+								<i class="fa-solid fa-heart"></i>
+							</button>
+							<a class="gal__download" href="./assets/img/image-1.png" download aria-label="Download">
+								<i class="fa-solid fa-download"></i>
+							</a>
+						</div>
+						<div class="gal__title">
+							<span class="gal__author">devn</span>
+							<span class="gal__date">30 June 2020</span>
+						</div>
+					</div>
+					<div class="gal__item gal__item--fashion5">
+						<div class="gal__img-wrap">
+							<img src="./assets/img/image-17.png" alt="" class="gal__img">
+						</div>
+						<div class="gal__btn">
+							<button class="gal__like" type="button" aria-label="Like">
+								<i class="fa-solid fa-heart"></i>
+							</button>
+							<a class="gal__download" href="./assets/img/image-1.png" download aria-label="Download">
+								<i class="fa-solid fa-download"></i>
+							</a>
+						</div>
+						<div class="gal__title">
+							<span class="gal__author">Sincerely Media</span>
+							<span class="gal__date">7 January 2021</span>
+						</div>
+					</div>
+					<div class="gal__item gal__item--fashion6">
+						<div class="gal__img-wrap gal__item--row-2">
+							<img src="./assets/img/image-18.png" alt="" class="gal__img">
+						</div>
+						<div class="gal__btn">
+							<button class="gal__like" type="button" aria-label="Like">
+								<i class="fa-solid fa-heart"></i>
+							</button>
+							<a class="gal__download" href="./assets/img/image-1.png" download aria-label="Download">
+								<i class="fa-solid fa-download"></i>
+							</a>
+						</div>
+						<div class="gal__title">
+							<span class="gal__author">Seth Doyle</span>
+							<span class="gal__date">30 June 2020</span>
+						</div>
+					</div>
+					<div class="gal__item gal__item--fashion7">
+						<div class="gal__img-wrap">
+							<img src="./assets/img/image-19.png" alt="" class="gal__img">
+						</div>
+						<div class="gal__btn">
+							<button class="gal__like" type="button" aria-label="Like">
+								<i class="fa-solid fa-heart"></i>
+							</button>
+							<a class="gal__download" href="./assets/img/image-1.png" download aria-label="Download">
+								<i class="fa-solid fa-download"></i>
+							</a>
+						</div>
+						<div class="gal__title">
+							<span class="gal__author">Noah Buscher</span>
+							<span class="gal__date">13 February 2021</span>
+						</div>
+					</div>
+					<div class="gal__item gal__item--fashion8">
+						<div class="gal__img-wrap">
+							<img src="./assets/img/image-20.png" alt="" class="gal__img">
+						</div>
+						<div class="gal__btn">
+							<button class="gal__like" type="button" aria-label="Like">
+								<i class="fa-solid fa-heart"></i>
+							</button>
+							<a class="gal__download" href="./assets/img/image-1.png" download aria-label="Download">
+								<i class="fa-solid fa-download"></i>
+							</a>
+						</div>
+						<div class="gal__title">
+							<span class="gal__author">Melissa Askew</span>
+							<span class="gal__date">29 April 2021</span>
+						</div>
+					</div>
+					<div class="gal__item gal__item--fashion9">
+						<div class="gal__img-wrap">
+							<img src="./assets/img/image-21.png" alt="" class="gal__img">
+						</div>
+						<div class="gal__btn">
+							<button class="gal__like" type="button" aria-label="Like">
+								<i class="fa-solid fa-heart"></i>
+							</button>
+							<a class="gal__download" href="./assets/img/image-1.png" download aria-label="Download">
+								<i class="fa-solid fa-download"></i>
+							</a>
+						</div>
+						<div class="gal__title">
+							<span class="gal__author">Brooke Cagle</span>
+							<span class="gal__date">5 August 2019</span>
+						</div>
+					</div>
+					<div class="gal__item gal__item--fashion10">
+						<div class="gal__img-wrap">
+							<img src="./assets/img/image-22.png" alt="" class="gal__img">
+						</div>
+						<div class="gal__btn">
+							<button class="gal__like" type="button" aria-label="Like">
+								<i class="fa-solid fa-heart"></i>
+							</button>
+							<a class="gal__download" href="./assets/img/image-1.png" download aria-label="Download">
+								<i class="fa-solid fa-download"></i>
+							</a>
+						</div>
+						<div class="gal__title">
+							<span class="gal__author">Brooke Cagle</span>
+							<span class="gal__date">5 August 2019</span>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+	</main>
+	<script src="./js/main.js"></script>
+</body>
+</html>
